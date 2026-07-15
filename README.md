@@ -26,10 +26,8 @@ The dataset contains information about:
 - Delivery time analysis
 - Customer behaviour insights
 
-## Project Screenshots
-
-<img width="1913" height="1006" alt="1 KPI Demonstration" src="https://github.com/user-attachments/assets/2bb6fba7-2b88-4c68-a180-6a3c0225a097" />
-
+## Project Dashboard
+<img width="622" height="366" alt="10 Dashboard" src="https://github.com/user-attachments/assets/0e5a105e-6459-425b-b762-c02280dc4745" />
 
 ## Key Insights
 - Identified popular cuisines and customer preferences
