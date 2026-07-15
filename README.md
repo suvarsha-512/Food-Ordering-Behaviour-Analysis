@@ -28,7 +28,8 @@ The dataset contains information about:
 
 ## Project Screenshots
 
-(Add your screenshots here)
+<img width="1913" height="1006" alt="1 KPI Demonstration" src="https://github.com/user-attachments/assets/2bb6fba7-2b88-4c68-a180-6a3c0225a097" />
+
 
 ## Key Insights
 - Identified popular cuisines and customer preferences
