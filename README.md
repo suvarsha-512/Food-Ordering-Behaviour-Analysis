@@ -27,7 +27,7 @@ The dataset contains information about:
 - Customer behaviour insights
 
 ## Project Dashboard
-<img width="622" height="366" alt="10 Dashboard" src="https://github.com/user-attachments/assets/0e5a105e-6459-425b-b762-c02280dc4745" />
+<img width="1918" height="1078" alt="10 Dashboard" src="https://github.com/user-attachments/assets/36fd43f2-9921-47ce-baf7-17d86be9bca8" />
 
 ## Key Insights
 - Identified popular cuisines and customer preferences
