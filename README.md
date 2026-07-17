@@ -79,6 +79,17 @@ Features include:
 
 ## 📸 Project Screenshots
 
+### Dashboard
+![Dashboard](Screenshots/Dashboard.png)
+
+### Tableau Story
+![Story](Screenshots/Story.png)
+
+### Flask Web Application
+![Website](Screenshots/Website.png)
+
+### Tableau Public
+![Tableau Public](Screenshots/TableauPublic.png)
 - Dashboard
 - Tableau Story
 - Flask Web Application
