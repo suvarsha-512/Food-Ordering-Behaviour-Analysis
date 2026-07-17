@@ -2,114 +2,84 @@
 
 ## 📌 Project Overview
 
-This project analyzes food ordering behavior and consumer trends using Tableau. The objective is to understand customer preferences, ordering patterns, cuisine popularity, city-wise demand, delivery performance, and revenue insights through interactive dashboards and stories.
-
-The project also demonstrates the integration of Tableau Public dashboards into a Flask web application, allowing users to explore interactive visualizations directly from a web browser.
+The **Food Ordering Behaviour Analysis** project is an interactive data visualization project developed as part of the **AICTE Tableau Internship**. It analyzes customer food ordering patterns and consumer trends using Tableau dashboards and stories. The project also includes a Flask-based web application that presents the dashboard through a responsive and user-friendly interface.
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## 🎯 Objectives
 
-- Tableau Desktop
+- Analyze customer ordering behaviour.
+- Identify popular cuisines and meal preferences.
+- Compare order trends across different cities.
+- Evaluate delivery performance and customer ratings.
+- Present business insights using interactive Tableau visualizations.
+
+---
+
+## 🛠️ Tools & Technologies
+
 - Tableau Public
-- Flask (Python)
-- HTML
-- CSS
-- Bootstrap
-- Visual Studio Code
+- Python
+- Flask
+- HTML5
+- CSS3
+- Bootstrap 5
 
 ---
 
-## 📂 Dataset
+## 📂 Project Files
 
-The dataset contains food ordering records with attributes such as:
-
-- Order ID
-- Customer Age
-- City
-- Cuisine
-- Meal Type
-- Restaurant Type
-- Order Value
-- Delivery Fee
-- Customer Rating
-- Delivery Time
+```
+Food-Ordering-Behaviour-Analysis/
+│
+├── README.md
+├── Food_Ordering_Behaviour_Analysis_Dashboard.twbx
+├── Food_Ordering_Behaviour_Analysis_Story.twbx
+├── food_ordering_behavior_dataset.csv
+├── Flask_Website/
+└── Screenshots/
+```
 
 ---
 
-## 📊 Dashboard Highlights
+## 📊 Tableau Dashboard
 
-The Tableau Dashboard provides interactive insights including:
+The interactive Tableau Dashboard provides insights into:
 
-- 📌 Key Performance Indicators (KPIs)
-  - Total Orders
-  - Total Revenue
-  - Average Rating
-  - Average Delivery Fee
-
-- 🍴 Cuisine Demand Analysis
-- 🌆 City-wise Order Distribution
-- 👥 Customer Age Group Analysis
-- 🍽️ Meal Type Preferences
-- ⭐ Customer Rating Analysis
-- 💰 Revenue Analysis
-- 🚚 Delivery Performance
+- Key Performance Indicators (KPIs)
+- Customer Ordering Behaviour
+- Cuisine Preferences
+- City-wise Order Analysis
+- Revenue Analysis
+- Delivery Performance
+- Customer Rating Analysis
 
 ---
 
 ## 📖 Tableau Story
 
-The Tableau Story presents a step-by-step explanation of the insights obtained from the dashboard, helping users understand customer behavior and food ordering trends through interactive story points.
+The Tableau Story presents the complete analytical workflow through multiple story points, helping users understand business insights in a structured and interactive manner.
 
 ---
 
-## 🌐 Flask Web Integration
+## 🌐 Flask Website
 
-The Tableau Dashboard and Story are embedded into a Flask-based web application.
-
-Features include:
-
-- Responsive Homepage
-- Embedded Tableau Dashboard
-- Embedded Tableau Story
-- Interactive Visualizations
-- Easy Navigation
+A responsive Flask web application was developed to showcase the Tableau Dashboard and Story through an interactive interface. The website includes sections such as Home, About, Dashboard, Story, Developer, and Contact, providing a seamless experience for users.
 
 ---
 
 ## 📸 Project Screenshots
 
-### Dashboard
-![Dashboard](Screenshots/Dashboard.png)
-
-### Tableau Story
-![Story](Screenshots/Story.png)
-
-### Flask Web Application
-![Website](Screenshots/Website.png)
-
-### Tableau Public
-![Tableau Public](Screenshots/TableauPublic.png)
-- Dashboard
-- Tableau Story
-- Flask Web Application
-- Tableau Public Dashboard
+Screenshots of the website and Tableau visualizations are available in the **Screenshots** folder.
 
 ---
 
-## 🚀 How to Run the Project
+## 🚀 How to Run the Flask Website
 
-1. Clone the repository.
-
-2. Install Flask.
-
-```bash
-pip install flask
-```
-
-3. Open the project folder in Visual Studio Code.
-
-4. Run the Flask application.
+1. Clone this repository.
+2. Navigate to the `Flask_Website` folder.
+3. Install the required Python packages.
+4. Run:
 
 ```bash
 python app.py
@@ -123,34 +93,20 @@ http://127.0.0.1:5000
 
 ---
 
-## 📁 Project Files
-
-- Dataset (.csv)
-- Tableau Dashboard (.twbx)
-- Tableau Story (.twbx)
-- Flask Application (app.py)
-- HTML Web Page (index.html)
-- Project Screenshots
-- README.md
-
----
-
-## 🎯 Project Outcome
-
-This project demonstrates how Tableau can be used to analyze food ordering behavior and how interactive dashboards can be deployed through a Flask web application, making business insights easily accessible to users.
-
----
-
-## 👩‍💻 Author
+## 👩‍💻 Developer
 
 **Nayakal Suvarsha**
 
 B.Tech – Computer Science & Engineering
 
-GitHub: https://github.com/suvarsha-512
-
-LinkedIn: *(Add your LinkedIn profile link here)*
+Aspiring Data Analyst
 
 ---
 
-⭐ If you found this project useful, consider giving it a star on GitHub!
+## 📜 Internship
+
+This project was developed as part of the **AICTE Tableau Internship**.
+
+---
+
+## ⭐ If you found this project useful, consider giving it a Star!
