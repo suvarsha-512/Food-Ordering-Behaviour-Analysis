@@ -121,11 +121,6 @@ The website provides a simple navigation experience and integrates the project a
 
 (http://127.0.0.1:5000)
 
-Example:
-
-```
-https://your-flask-website-link.com
-```
 
 ---
 
@@ -183,10 +178,5 @@ Aspiring Data Analyst
 
 ---
 
-# 📜 Internship
-
-This project was developed as part of the **AICTE Tableau Internship**.
-
----
 
 ⭐ If you found this project useful, consider giving it a Star!
