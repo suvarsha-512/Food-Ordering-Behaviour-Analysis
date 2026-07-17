@@ -30,14 +30,26 @@ The **Food Ordering Behaviour Analysis** project is an interactive data visualiz
 ## 📂 Project Files
 
 ```
-Food-Ordering-Behaviour-Analysis
+Food-Ordering-Behaviour-Analysis/
 │
 ├── README.md
 ├── Food_Ordering_Behaviour_Analysis_Dashboard.twbx
 ├── Food_Ordering_Behaviour_Analysis_Story.twbx
 ├── food_ordering_behavior_dataset.csv
-├── Flask_Website
-└── Screenshots
+├── Food_Ordering_Behaviour_Analysis_Project_Report.pdf
+├── Flask_Website/
+│   ├── app.py
+│   ├── templates/
+│   ├── static/
+│  
+│
+└── Screenshots/
+    ├── 01_Home_Page.png
+    ├── 02_About_Project.png
+    ├── 03_Tableau_Dashboard.png
+    ├── 04_Tableau_Story.png
+    ├── 05_Developer_Page.png
+    └── 06_Contact_Page.png
 ```
 
 ---
