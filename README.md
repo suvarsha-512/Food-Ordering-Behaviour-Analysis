@@ -43,14 +43,11 @@ Food-Ordering-Behaviour-Analysis/
 ├── Food_Ordering_Behaviour_Analysis_Story.twbx
 ├── food_ordering_behavior_dataset.csv
 ├── Food_Ordering_Behaviour_Analysis_Project_Report.pdf
-│
-└── Flask_Website/
-    ├── app.py
-    ├── templates/
-    └── static/
+├── Flask Website Report.pdf
+
 ```
 
----
+
 
 # 📊 Tableau Dashboard
 
@@ -121,40 +118,6 @@ The website provides a simple navigation experience and integrates the project a
 
 (http://127.0.0.1:5000)
 
-
----
-
-# 🚀 How to Run the Flask Website Locally
-
-### Step 1: Clone the Repository
-
-```bash
-git clone <repository-link>
-```
-
-### Step 2: Navigate to Flask Website Folder
-
-```bash
-cd Flask_Website
-```
-
-### Step 3: Install Required Packages
-
-```bash
-pip install flask pandas
-```
-
-### Step 4: Run the Application
-
-```bash
-python app.py
-```
-
-### Step 5: Open in Browser
-
-```
-http://127.0.0.1:5000
-```
 
 ---
 
