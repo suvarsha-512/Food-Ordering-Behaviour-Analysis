@@ -82,6 +82,15 @@ It provides a structured view of:
 The story makes the analysis easier to understand for business decision-making.
 
 ---
+## 🔗 Live Tableau Visualizations
+
+Explore the interactive Tableau visualizations online:
+
+- 📊 **Dashboard:** [View Interactive Dashboard](https://public.tableau.com/app/profile/nayakal.suvarsha/viz/Food_Ordering_Behaviour_Analysis_Dashboard/Dashboard1)
+
+- 📖 **Story:** [View Interactive Story](https://public.tableau.com/app/profile/nayakal.suvarsha/viz/FoodOrdersStory/Story1)
+
+---
 
 # 🌐 Flask Web Application
 
