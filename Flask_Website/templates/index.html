@@ -298,16 +298,27 @@ style='border:none'/>
 <script type='text/javascript'>
 
 var divElement = document.getElementById('vizDashboard');
-
 var vizElement = divElement.getElementsByTagName('object')[0];
 
-vizElement.style.width='100%';
+function resizeDashboard() {
+    var width = divElement.offsetWidth;
 
-vizElement.style.height='800px';
+    vizElement.style.width = '100%';
+
+    if (width < 576) {
+        vizElement.style.height = '500px';
+    } else if (width < 992) {
+        vizElement.style.height = '650px';
+    } else {
+        vizElement.style.height = '800px';
+    }
+}
+
+resizeDashboard();
+window.addEventListener('resize', resizeDashboard);
 
 var scriptElement = document.createElement('script');
-
-scriptElement.src='https://public.tableau.com/javascripts/api/viz_v1.js';
+scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
 
 vizElement.parentNode.insertBefore(scriptElement, vizElement);
 
