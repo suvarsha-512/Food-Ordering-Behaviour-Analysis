@@ -125,7 +125,7 @@ The website provides a simple navigation experience and integrates the project a
 
 ## 🔗 Flask Website Link
 
-(http://127.0.0.1:5000)
+https://food-ordering-behaviour-analysis.onrender.com
 
 
 ---
