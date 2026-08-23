@@ -115,3 +115,17 @@ p{
         transform: translateY(0);
     }
 }
+/* Responsive Tableau Dashboard */
+
+#vizDashboard {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+#vizDashboard object {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+
