@@ -72,7 +72,7 @@ p{
 
 .hero-section{
     background: linear-gradient(rgba(27, 22, 22, 0.55), rgba(29, 28, 28, 0.55)),
-                url("../img/food-bg.jpeg");
+                url("food-bg.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
