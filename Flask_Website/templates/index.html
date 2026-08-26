@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -23,7 +24,6 @@ href="{{ url_for('static', filename='css/style.css') }}">
       data-bs-target=".navbar"
       data-bs-offset="80"
       tabindex="0">
-
 
 <!-- ================= NAVBAR ================= -->
 
@@ -328,9 +328,7 @@ vizElement.parentNode.insertBefore(scriptElement, vizElement);
 
 <section id="story" class="py-5">
 
-      
-
-<div class="container-fluid">
+<div class="container">
 
 <div class="text-center mb-5">
 
@@ -393,10 +391,10 @@ style='border:none'/>
 var divElement = document.getElementById('vizStory');
 
 var vizElement = divElement.getElementsByTagName('object')[0];
-      
-vizElement.style.width='100%';
-vizElement.style.height='800px';
 
+vizElement.style.width='100%';
+
+vizElement.style.height='800px';
 
 var scriptElement=document.createElement('script');
 
