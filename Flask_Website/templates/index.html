@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
@@ -24,6 +23,7 @@ href="{{ url_for('static', filename='css/style.css') }}">
       data-bs-target=".navbar"
       data-bs-offset="80"
       tabindex="0">
+
 
 <!-- ================= NAVBAR ================= -->
 
@@ -255,9 +255,9 @@ Explore customer ordering behaviour through interactive visualizations.
 
 </div>
 
-<div class="card shadow border-0">
+<div class="card shadow">
 
-<div class="card-body p-2 p-md-3">
+<div class="card-body">
 
 <div class='tableauPlaceholder' id='vizDashboard' style='position: relative'>
 
@@ -298,27 +298,16 @@ style='border:none'/>
 <script type='text/javascript'>
 
 var divElement = document.getElementById('vizDashboard');
+
 var vizElement = divElement.getElementsByTagName('object')[0];
 
-function resizeDashboard() {
-    var width = divElement.offsetWidth;
+vizElement.style.width='100%';
 
-    vizElement.style.width = '100%';
-
-    if (width < 576) {
-        vizElement.style.height = '500px';
-    } else if (width < 992) {
-        vizElement.style.height = '650px';
-    } else {
-        vizElement.style.height = '800px';
-    }
-}
-
-resizeDashboard();
-window.addEventListener('resize', resizeDashboard);
+vizElement.style.height='800px';
 
 var scriptElement = document.createElement('script');
-scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+
+scriptElement.src='https://public.tableau.com/javascripts/api/viz_v1.js';
 
 vizElement.parentNode.insertBefore(scriptElement, vizElement);
 
